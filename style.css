@@ -1,0 +1,354 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+
+}
+
+.header_bottom_line {
+    border-bottom: 0.5px solid rgb(228, 226, 226);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_container {
+    width: 75%;
+    margin: auto;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+.header_box1 {
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header_box1 img {
+    width: 129px;
+    height: 20px;
+}
+
+.header_box2 {
+    width: 55%;
+}
+
+.header_box2 a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    color: #666666;
+
+}
+
+.header_box2 a:hover {
+    color: dodgerblue;
+}
+
+.header_box2 ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+.nav {
+    width: 30px;
+    margin: 5px 0px;
+    display: block;
+}
+
+.nav div {
+    font-size: 1px;
+    width: 25px;
+    border-bottom: 1px solid #666666;
+    margin: 5px 0px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.section_container {
+    width: 80%;
+    margin: auto;
+}
+
+.section_container img {
+    width: 475px;
+    height: 301px;
+    margin: 0px 0px 60px;
+}
+
+.section_container h1 {
+    font-size: 44px;
+}
+
+.section_container h5 {
+    font-size: 20px;
+    color: #424242;
+}
+
+.section_container a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 25px 0px 0px;
+    padding: 10px 30px;
+    background-color: #387ed1;
+    border-radius: 3px;
+}
+
+.section_marketing_padding {
+    padding: 100px 20px 120px;
+}
+
+.market_box {
+    width: 40%;
+}
+
+.market_box img {
+    width: 100%;
+}
+
+.market_box1 {
+    width: 50%;
+}
+
+.market_box1 h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px;
+    color: #424242;
+}
+
+.market_box1 p {
+    font-size: 16px;
+    margin: 16px 0px;
+    color: #424242;
+    line-height: 1.8;
+}
+
+.unordered_box {
+    width: 48%;
+}
+
+.unordered_box ul {
+    padding-left: 20px;
+}
+
+.unordered_box li {
+    margin-bottom: 5px;
+}
+
+.image_box {
+    width: 20%;
+}
+
+.image_box img {
+    width: 75%;
+    height: 100px;
+    margin: 0px;
+    /* margin: auto; */
+
+}
+
+.bottom_padding30 {
+    padding-bottom: 30px;
+}
+
+.section_container_img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.section_container_img1 a {
+    background-color: white;
+    text-decoration: none;
+    color: dodgerblue;
+    margin: 25px 0px 0px;
+    padding: 10px 30px;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.fees_box1 {
+    width: 40%;
+}
+
+.fees_box2 {
+    width: 52%
+}
+
+.fees_box1 h2 {
+    font-size: 32px;
+}
+
+.fees_box1 img {
+    width: 100%;
+}
+
+.fees_box1 p {
+    line-height: 1.8;
+}
+
+.fees_box2 p {
+    line-height: 1.8;
+}
+
+.fees_box2 h4 {
+    font-size: 24px;
+    margin: 0px 0px 20px;
+}
+
+.amount_box {
+    width: 45%;
+    text-align: center;
+    border: 1px solid rgb(204, 202, 202);
+}
+
+.amount_box p {
+    line-height: 1.8;
+}
+
+.bottom_padding80 {
+    padding-bottom: 150px;
+}
+
+.last_section {
+    padding: 40px 0px 80px;
+    color: #424242;
+}
+
+.mini_container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.mini_container h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px;
+}
+
+.mini_container p {
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin: 0px 0px 20px;
+}
+
+.container_a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 25px 0px 0px;
+    padding: 10px 30px;
+    background-color: #387ed1;
+    border-radius: 3px;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 0px 5px;
+    border-top: 1px solid rgb(242, 239, 239);
+}
+
+.footer_section_one {
+    width: 85%;
+    margin: auto;
+}
+
+.main_footer {
+    width: 22%;
+}
+
+.main_footer img {
+    width: 60%;
+}
+
+.main_footer_list a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #424242;
+}
+
+.main_footer_list a:hover {
+    color: dodgerblue;
+}
+
+.main_footer_list ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.main_footer_list li {
+    margin: 0px 20px 0px 0px;
+}
+
+.main_footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.footer_li {
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+.footer_ul li {
+    margin: 0px 0px 10px;
+}
+
+.main_footer a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #424242;
+}
+
+.main_footer a:hover {
+    color: dodgerblue;
+}
+
+.additional_footer {
+    margin-top: 50px;
+}
+
+.additional_footer a {
+    text-decoration: none;
+}
+
+.additional_footer p {
+    margin: 0px 0px 10px;
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+.additional_footer_end ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.additional_footer_end a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #424242;
+    padding-right: 30px;
+    font-size: 12px;
+}
+
+.additional_footer_end a:hover {
+    color: dodgerblue;
+}
